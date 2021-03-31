@@ -29,6 +29,9 @@ from pathlib import Path
 from publish import publish
 from test import test
 from tensorboardX import SummaryWriter
+import idr_torch
+
+
 def decode_segmap(temp, plot=False):
     Seed = [255, 255, 255]
     P_Root = [0, 255, 0]
